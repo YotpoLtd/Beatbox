@@ -42,7 +42,7 @@ class Client(object):
     """The main sforce client proxy class."""
     def __init__(self):
         self.batchSize = 500
-        self.serverUrl = "https://test.salesforce.com/services/Soap/u/36.0"
+        self.serverUrl = "https://test.salesforce.com/services/Soap/u/20.0"
         self.__conn = None
         self.timeout = 15
         self.headers = {}
